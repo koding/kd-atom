@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Initialize",
+        "command": "koding:init"
+      },
+      {
+        "label": "Kill",
+        "command": "koding:kill"
+      },
+      {
+        "label": "Toggle",
+        "command": "koding:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Koding",
+          "submenu": [
+            {
+              "label": "Init",
+              "command": "koding:init"
+            },
+            {
+              "label": "Kill",
+              "command": "koding:kill"
+            },
+            {
+              "label": "Toggle",
+              "command": "koding:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

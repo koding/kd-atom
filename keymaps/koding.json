@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "alt-k alt-i": "koding:init",
+    "alt-k alt-t": "koding:toggle",
+    "alt-k alt-k": "koding:kill"
+  }
+}
