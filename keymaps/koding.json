@@ -1,7 +1,7 @@
 {
   "atom-workspace": {
-    "alt-k alt-i": "koding:init",
-    "alt-k alt-t": "koding:toggle",
-    "alt-k alt-k": "koding:kill"
+    "alt-k alt-l": "koding:login",
+    "alt-k alt-t": "koding:teams",
+    "alt-k alt-q": "koding:logout"
   }
 }
