@@ -32,3 +32,63 @@ atom-panel.modal.koding-login-view {
     fill: @text-color;
   }
 }
+
+.koding-sidebar-stacks .list-item {
+  &.running {
+    svg .a {
+      fill: @text-color-success;
+    }
+  }
+  &.stopped {
+    svg .a {
+      fill: @text-color-subtle;
+    }
+  }
+  svg {
+    vertical-align: text-bottom;
+    margin-right: 7px;
+    .a {
+      fill: @text-color;
+    }
+  }
+}
+
+.koding-sidebar-stacks {
+  min-width: 206px;
+  button {
+    margin: 20px 7px;
+  }
+}
+
+.koding-sidebar-stacks header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px 10px 10px 5px;
+  box-sizing: border-box;
+  div {
+    flex: 1 1 auto;
+    h1, h2 {
+      line-height: 16px;
+      margin: 0;
+    }
+    h1 {
+      font-size: @component-icon-size;
+      color: @text-color;
+      font-weight: 400;
+    }
+    h2 {
+      font-size: @font-size;
+      color: @text-color-subtle;
+    }
+  }
+  .team-logo {
+    vertical-align: text-bottom;
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+    border-radius: 4px;
+    background-size: 30px 30px;
+  }
+}
