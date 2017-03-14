@@ -2,6 +2,8 @@
   "atom-workspace": {
     "alt-k alt-l": "koding:login",
     "alt-k alt-t": "koding:teams",
+    "alt-k alt-v": "koding:machines",
+    "alt-k alt-m": "koding:mounts",
     "alt-k alt-q": "koding:logout"
   }
 }
