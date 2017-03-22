@@ -1,6 +1,6 @@
 {
   "name": "kd",
-  "main": "./lib/koding",
+  "main": "./lib/kd",
   "version": "0.1.0",
   "description": "Koding.com's Atom package for its kd cli tool.",
   "keywords": [
@@ -9,7 +9,7 @@
     "atom",
     "atom-package"
   ],
-  "repository": "https://github.com/koding/koding-atom-package",
+  "repository": "https://github.com/koding/kd-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
