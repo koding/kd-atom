@@ -1,9 +1,7 @@
 {
   "atom-workspace": {
-    "alt-k alt-l": "kd:login",
     "alt-k alt-t": "kd:teams",
     "alt-k alt-v": "kd:machines",
-    "alt-k alt-m": "kd:mounts",
-    "alt-k alt-q": "kd:logout"
+    "alt-k alt-m": "kd:mounts"
   }
 }
