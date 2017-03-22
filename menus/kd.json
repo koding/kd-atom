@@ -7,16 +7,16 @@
           "label": "Koding",
           "submenu": [
             {
-              "label": "Init",
-              "command": "koding:init"
+              "label": "Show Teams",
+              "command": "koding:teams"
             },
             {
-              "label": "Kill",
-              "command": "koding:kill"
+              "label": "Show Machines",
+              "command": "koding:machines"
             },
             {
-              "label": "Toggle",
-              "command": "koding:toggle"
+              "label": "Show Mounts",
+              "command": "koding:mounts"
             }
           ]
         }
