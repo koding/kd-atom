@@ -33,6 +33,33 @@ atom-panel.modal.koding-login-view {
   }
 }
 
+.koding-statusbar-icon {
+  svg {
+    width: 14px;
+    height: 14px;
+    margin: 8px 0 0 0;
+    path {
+      fill: @text-color-subtle;
+    }
+  }
+  &.good svg path {
+    fill: @text-color-success;
+  }
+}
+
+.koding-statusbar-tooltip.tooltip {
+  .tooltip-inner {
+    background: @inset-panel-background-color;
+    text-align: left;
+    color: @text-color;
+    max-width: 500px;
+    white-space: normal;
+  }
+  &.top .tooltip-arrow {
+    border-top-color: @inset-panel-background-color;
+  }
+}
+
 .koding-sidebar-stacks .list-item {
   &.running {
     svg .a {
