@@ -2,8 +2,9 @@
   "name": "koding",
   "main": "./lib/koding",
   "version": "0.1.0",
-  "description": "Koding.com atom client.",
+  "description": "Koding.com's Atom package for kd cli tool.",
   "keywords": [
+    "kd",
     "koding",
     "atom",
     "atom-package"
