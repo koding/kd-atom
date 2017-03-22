@@ -1,8 +1,8 @@
 {
-  "name": "koding",
+  "name": "kd",
   "main": "./lib/koding",
   "version": "0.1.0",
-  "description": "Koding.com's Atom package for kd cli tool.",
+  "description": "Koding.com's Atom package for its kd cli tool.",
   "keywords": [
     "kd",
     "koding",
