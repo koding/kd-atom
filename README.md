@@ -1,10 +1,10 @@
 # Koding Atom Package
 
-This package runs Koding in your atom editor. You can access to your Koding team's resources from within Atom Editor and mount your VMs and work in them as you work with your local files and folders.
+With this package you can access to your Koding teams' resources from within Atom Editor. You can list your teams, machines or mount your VMs and work with them as you work with your local files and folders.
 
 ### Installation
 
-Just install it through Atom's install package screen or use `apm`
+You can install it through Atom's Install Packages view (Settings>Install Packages) or use `apm`.
 
 ```
 $ apm install kd
