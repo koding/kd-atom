@@ -10,17 +10,45 @@
   }
 }
 
-.kd-statusbar-icon {
-  vertical-align: text-top;
+status-bar .status-bar-right .kd-statusbar-icon {
   svg {
+    margin-top: 7px;
     width: 14px;
     height: 14px;
     path {
       fill: @text-color-subtle;
+      opacity: 1;
     }
   }
   &.good svg path {
     fill: @text-color-success;
+  }
+
+  .loading-message {
+    display: none;
+  }
+
+  &.loading {
+    svg path {
+      animation: svg-color-loading 1s infinite;
+    }
+
+    .loading-message {
+      display: inline-block;
+    }
+  }
+
+}
+
+@keyframes svg-color-loading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
