@@ -20,6 +20,10 @@
   "package-deps": [
     "atom-terminal"
   ],
+  "scripts": {
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix"
+  },
   "dependencies": {
     "atom-package-deps": "^4.5.0",
     "atom-space-pen-views": "^2.2.0",

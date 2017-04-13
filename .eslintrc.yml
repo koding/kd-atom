@@ -2,3 +2,9 @@ extends: standard
 plugins:
   - standard
   - promise
+
+rules:
+  max-len:
+    - 2
+    - 80
+    - 2
