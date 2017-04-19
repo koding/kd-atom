@@ -75,9 +75,29 @@ status-bar .status-bar-right .kd-statusbar-icon {
 }
 
 .machine-settings {
+  max-height: 33vh;
+  overflow: auto;
   .table {
     td, th {
       border-color: @tab-border-color;
+      vertical-align: inherit;
+    }
+    tr {
+      &.offline {
+        color: @text-color-subtle;
+        &:hover {
+          color: @text-color;
+        }
+      }
+      &.online,
+      &.connected {
+        td.icon:before {
+          color: @text-color-success;
+        }
+      }
+      &:hover {
+        background: @background-color-highlight;
+      }
     }
   }
 
