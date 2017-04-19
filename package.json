@@ -30,7 +30,8 @@
     "debug": "^2.6.1",
     "electron-json-storage": "^3.0.1",
     "execa": "^0.6.0",
-    "kd.js": "^1.1.30"
+    "kd.js": "^1.1.30",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "eslint": "^3.15.0",

@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
+    "alt-k alt-d": "kd:dashboard",
     "alt-k alt-t": "kd:teams",
     "alt-k alt-v": "kd:machines",
     "alt-k alt-m": "kd:mounts"
