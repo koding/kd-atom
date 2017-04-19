@@ -12,7 +12,7 @@
 
 status-bar .status-bar-right .kd-statusbar-icon {
   svg {
-    margin-top: 7px;
+    margin-top: 8px;
     width: 14px;
     height: 14px;
     path {
@@ -35,6 +35,7 @@ status-bar .status-bar-right .kd-statusbar-icon {
 
     .loading-message {
       display: inline-block;
+      padding-left: 5px;
     }
   }
 
@@ -74,9 +75,29 @@ status-bar .status-bar-right .kd-statusbar-icon {
 }
 
 .machine-settings {
+  max-height: 33vh;
+  overflow: auto;
   .table {
     td, th {
       border-color: @tab-border-color;
+      vertical-align: inherit;
+    }
+    tr {
+      &.offline {
+        color: @text-color-subtle;
+        &:hover {
+          color: @text-color;
+        }
+      }
+      &.online,
+      &.connected {
+        td.icon:before {
+          color: @text-color-success;
+        }
+      }
+      &:hover {
+        background: @background-color-highlight;
+      }
     }
   }
 
@@ -85,6 +106,32 @@ status-bar .status-bar-right .kd-statusbar-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    div {
+      flex: 1 1 auto;
+    }
+    button {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+.command-center {
+  .icon-check {
+    line-height: 1.5em;
+  }
+  .text {
+    font-size: .9em;
+    line-height: 1.4em;
+    border: 1px solid @inset-panel-border-color;
+  }
+  .buttons {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    button {
+      flex: 0 0 auto;
+      margin-right: 10px;
+    }
   }
 }
 
