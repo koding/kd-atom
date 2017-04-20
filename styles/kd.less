@@ -41,17 +41,6 @@ status-bar .status-bar-right .kd-statusbar-icon {
 
 }
 
-@keyframes svg-color-loading {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.25;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .kd-statusbar-tooltip.tooltip {
   .tooltip-inner {
@@ -137,4 +126,28 @@ status-bar .status-bar-right .kd-statusbar-icon {
 
 .centered {
   text-align: center;
+}
+
+.btn-progress.has-progress,
+.btn-progress.has-progress:hover {
+  opacity: 1;
+  background-image: linear-gradient(to right, transparent 50%, hsla(0,0%,0%,.15) 50%) !important;
+  background-size: 10px 100%;
+  -webkit-animation: button-loading .5s linear infinite;
+}
+
+@keyframes button-loading {
+  100% { background-position: -10px 0px; }
+}
+
+@keyframes svg-color-loading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
 }
