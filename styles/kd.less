@@ -100,11 +100,17 @@ status-bar .status-bar-right .kd-statusbar-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    div {
+    & > div {
       flex: 1 1 auto;
     }
-    button {
+    & > button, & > input {
       flex: 0 0 auto;
+    }
+
+    atom-text-editor[mini] {
+      height: 23px;
+      font-size: 1em;
+      line-height: 1.8em;
     }
   }
 }
