@@ -71,6 +71,11 @@ status-bar .status-bar-right .kd-statusbar-icon {
       border-color: @tab-border-color;
       vertical-align: inherit;
     }
+
+    th {
+      white-space: nowrap;
+    }
+
     tr {
       &.offline {
         color: @text-color-subtle;
@@ -128,6 +133,14 @@ status-bar .status-bar-right .kd-statusbar-icon {
   text-align: center;
 }
 
+.has-action {
+  cursor: pointer
+}
+
+th.has-action:hover {
+  text-decoration: underline;
+}
+
 .btn-progress.has-progress,
 .btn-progress.has-progress:hover {
   opacity: 1;
@@ -135,6 +148,30 @@ status-bar .status-bar-right .kd-statusbar-icon {
   background-size: 10px 100%;
   -webkit-animation: button-loading .5s linear infinite;
 }
+
+.is-sorted:after {
+  margin-left: 5px;
+  font-family: 'Octicons Regular';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 0.6;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.is-sorted.desc:after {
+  content: "\f0a0"; // arrow-down
+}
+
+.is-sorted.asc:after {
+  content: "\f09f"; // arrow-up
+}
+
+
 
 @keyframes button-loading {
   100% { background-position: -10px 0px; }
