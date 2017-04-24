@@ -32,6 +32,7 @@
     "electron-json-storage": "^3.0.1",
     "execa": "^0.6.0",
     "kd.js": "^1.1.30",
+    "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
