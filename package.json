@@ -17,9 +17,6 @@
   "deserializers": {
     "KodingController": "deserialize"
   },
-  "package-deps": [
-    "atom-terminal"
-  ],
   "scripts": {
     "lint": "eslint lib",
     "lint:fix": "eslint lib --fix",
