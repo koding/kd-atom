@@ -10,7 +10,7 @@
     "atom-package"
   ],
   "repository": "https://github.com/koding/kd-atom",
-  "license": "GNU v3.0",
+  "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
